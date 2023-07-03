@@ -114,7 +114,7 @@ end;
 procedure TForm6.Button3Click(Sender: TObject);
 begin
   ZQuery1.SQL.Clear;
-  ZQuery1.SQL.Add('update poin_siswa set nama="'+Edit1.Text+'", jenis_kelamin="'+ComboBox1.Text+'", kelas="'+ComboBox2.Text+'", nama_wali"'+Edit2.Text+'", nama_poin="'+Edit3.Text+'", jenis="'+ComboBox3.Text+'", bobot="'+Edit4.Text+'", semester="'+ComboBox4.Text+'", status="'+ComboBox5.Text+'" where id="'+id+'"');
+  ZQuery1.SQL.Add('update poin_siswa set nama="'+Edit1.Text+'", jenis_kelamin="'+ComboBox1.Text+'", kelas="'+ComboBox2.Text+'", nama_wali="'+Edit2.Text+'", nama_poin="'+Edit3.Text+'", jenis="'+ComboBox3.Text+'", bobot="'+Edit4.Text+'", semester="'+ComboBox4.Text+'", status="'+ComboBox5.Text+'" where id="'+id+'"');
   ZQuery1.ExecSQL;
 
   ZQuery1.SQL.Clear;

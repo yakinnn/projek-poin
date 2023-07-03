@@ -80,7 +80,7 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 begin
   ZQuery1.SQL.Clear;
-  ZQuery1.SQL.Add('update siswa set nis="'+Edit1.Text+'", nisn="'+Edit2.Text+'", nama_siswa="'+Edit3.Text+'", nik="'+Edit4.Text+'", tempat_lahir="'+Edit5.Text+'", jenis_kelamin="'+ComboBox1.Text+'", tingkat_kelas="'+ComboBox2.Text+'", jurusan="'+ComboBox3.Text+'", wali_kelas="'+Edit6.Text+'", alamat="'+Edit7.Text+'", telp="'+Edit8.Text+'", hp="'+Edit9.Text+'", status="'+ComboBox4.Text+'" where id="'+id+'"');
+  ZQuery1.SQL.Add('update siswa set nis="'+Edit1.Text+'", nisn="'+Edit2.Text+'", nama_siswa="'+Edit3.Text+'", nik="'+Edit4.Text+'", tempat_lahir="'+Edit5.Text+'", jenis_kelamin="'+ComboBox1.Text+'", tingkat_kelas="'+ComboBox2.Text+'", jurusan="'+ComboBox3.Text+'", wali_kelas="'+Edit6.Text+'", alamat="'+Edit7.Text+'", telp="'+Edit8.Text+'", hp="'+Edit9.Text+'", status="'+ComboBox4.Text+'" where siswa_id="'+id+'"');
   ZQuery1.ExecSQL;
 
   ZQuery1.SQL.Clear;

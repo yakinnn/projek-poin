@@ -1,8 +1,9 @@
 object Form6: TForm6
-  Left = 192
-  Top = 125
+  Left = 203
+  Top = 77
   Width = 870
   Height = 522
+  VertScrollBar.Position = 86
   Caption = 'Form Data Poin Siswa'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -15,77 +16,77 @@ object Form6: TForm6
   TextHeight = 13
   object Label1: TLabel
     Left = 32
-    Top = 72
+    Top = -14
     Width = 57
     Height = 13
     Caption = 'Nama Siswa'
   end
   object Label2: TLabel
     Left = 32
-    Top = 104
+    Top = 18
     Width = 63
     Height = 13
     Caption = 'Jenis Kelamin'
   end
   object Label3: TLabel
     Left = 32
-    Top = 136
+    Top = 50
     Width = 25
     Height = 13
     Caption = 'Kelas'
   end
   object Label4: TLabel
     Left = 32
-    Top = 168
+    Top = 82
     Width = 50
     Height = 13
     Caption = 'Nama Wali'
   end
   object Label5: TLabel
     Left = 32
-    Top = 200
+    Top = 114
     Width = 50
     Height = 13
     Caption = 'Nama Poin'
   end
   object Label6: TLabel
     Left = 32
-    Top = 232
+    Top = 146
     Width = 24
     Height = 13
     Caption = 'Jenis'
   end
   object Label7: TLabel
     Left = 32
-    Top = 264
+    Top = 178
     Width = 28
     Height = 13
     Caption = 'Bobot'
   end
   object Label8: TLabel
     Left = 32
-    Top = 296
+    Top = 210
     Width = 67
     Height = 13
     Caption = 'Tanggal Input'
   end
   object Label9: TLabel
     Left = 32
-    Top = 328
+    Top = 242
     Width = 45
     Height = 13
     Caption = 'Semester'
   end
   object Label10: TLabel
     Left = 32
-    Top = 360
+    Top = 274
     Width = 31
     Height = 13
     Caption = 'Status'
   end
   object Label11: TLabel
     Left = 344
-    Top = 72
+    Top = -14
     Width = 116
     Height = 17
     Caption = 'Pilih Data Siswa : '
@@ -98,7 +99,7 @@ object Form6: TForm6
   end
   object Label12: TLabel
     Left = 712
-    Top = 72
+    Top = -14
     Width = 75
     Height = 17
     Caption = 'Pilih Poin : '
@@ -111,7 +112,7 @@ object Form6: TForm6
   end
   object DateTimePicker1: TDateTimePicker
     Left = 120
-    Top = 296
+    Top = 210
     Width = 186
     Height = 21
     Date = 45103.952645370370000000
@@ -120,14 +121,14 @@ object Form6: TForm6
   end
   object Edit1: TEdit
     Left = 120
-    Top = 72
+    Top = -14
     Width = 185
     Height = 21
     TabOrder = 1
   end
   object ComboBox1: TComboBox
     Left = 120
-    Top = 104
+    Top = 18
     Width = 185
     Height = 21
     ItemHeight = 13
@@ -135,7 +136,7 @@ object Form6: TForm6
   end
   object ComboBox2: TComboBox
     Left = 120
-    Top = 136
+    Top = 50
     Width = 185
     Height = 21
     ItemHeight = 13
@@ -143,21 +144,21 @@ object Form6: TForm6
   end
   object Edit2: TEdit
     Left = 120
-    Top = 168
+    Top = 82
     Width = 185
     Height = 21
     TabOrder = 4
   end
   object Edit3: TEdit
     Left = 120
-    Top = 200
+    Top = 114
     Width = 185
     Height = 21
     TabOrder = 5
   end
   object ComboBox3: TComboBox
     Left = 120
-    Top = 232
+    Top = 146
     Width = 185
     Height = 21
     ItemHeight = 13
@@ -165,14 +166,14 @@ object Form6: TForm6
   end
   object Edit4: TEdit
     Left = 120
-    Top = 264
+    Top = 178
     Width = 185
     Height = 21
     TabOrder = 7
   end
   object ComboBox4: TComboBox
     Left = 120
-    Top = 328
+    Top = 242
     Width = 185
     Height = 21
     ItemHeight = 13
@@ -183,7 +184,7 @@ object Form6: TForm6
   end
   object ComboBox5: TComboBox
     Left = 120
-    Top = 360
+    Top = 274
     Width = 185
     Height = 21
     ItemHeight = 13
@@ -194,7 +195,7 @@ object Form6: TForm6
   end
   object Button1: TButton
     Left = 296
-    Top = 392
+    Top = 306
     Width = 75
     Height = 25
     Caption = 'Baru'
@@ -203,7 +204,7 @@ object Form6: TForm6
   end
   object Button2: TButton
     Left = 32
-    Top = 392
+    Top = 306
     Width = 75
     Height = 25
     Caption = 'Simpan'
@@ -212,7 +213,7 @@ object Form6: TForm6
   end
   object Button3: TButton
     Left = 120
-    Top = 392
+    Top = 306
     Width = 75
     Height = 25
     Caption = 'Edit'
@@ -221,7 +222,7 @@ object Form6: TForm6
   end
   object Button4: TButton
     Left = 208
-    Top = 392
+    Top = 306
     Width = 75
     Height = 25
     Caption = 'Hapus'
@@ -230,15 +231,15 @@ object Form6: TForm6
   end
   object Button6: TButton
     Left = 384
-    Top = 392
+    Top = 306
     Width = 75
     Height = 25
     Caption = 'Laporan'
     TabOrder = 14
   end
   object DBGrid1: TDBGrid
-    Left = 112
-    Top = 432
+    Left = 64
+    Top = 346
     Width = 609
     Height = 120
     DataSource = DataSource1
@@ -252,7 +253,7 @@ object Form6: TForm6
   end
   object DBGrid2: TDBGrid
     Left = 336
-    Top = 96
+    Top = 10
     Width = 320
     Height = 120
     DataSource = DataSource2
@@ -266,7 +267,7 @@ object Form6: TForm6
   end
   object DBGrid3: TDBGrid
     Left = 704
-    Top = 96
+    Top = 10
     Width = 320
     Height = 120
     DataSource = DataSource3
@@ -284,8 +285,8 @@ object Form6: TForm6
     SQL.Strings = (
       'select * from poin_siswa')
     Params = <>
-    Left = 48
-    Top = 480
+    Left = 16
+    Top = 478
   end
   object ZQuery2: TZQuery
     Connection = ZConnection2
@@ -293,8 +294,8 @@ object Form6: TForm6
     SQL.Strings = (
       'select * from siswa')
     Params = <>
-    Left = 400
-    Top = 32
+    Left = 392
+    Top = 230
   end
   object ZQuery3: TZQuery
     Connection = ZConnection3
@@ -302,23 +303,23 @@ object Form6: TForm6
     SQL.Strings = (
       'select * from poin')
     Params = <>
-    Left = 792
-    Top = 32
+    Left = 760
+    Top = 230
   end
   object DataSource1: TDataSource
     DataSet = ZQuery1
-    Left = 48
-    Top = 528
+    Left = 16
+    Top = 526
   end
   object DataSource2: TDataSource
     DataSet = ZQuery2
-    Left = 456
-    Top = 32
+    Left = 448
+    Top = 230
   end
   object DataSource3: TDataSource
     DataSet = ZQuery3
-    Left = 848
-    Top = 32
+    Left = 816
+    Top = 230
   end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -333,8 +334,8 @@ object Form6: TForm6
     LibraryLocation = 
       'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
       '\libmysql.dll'
-    Left = 48
-    Top = 432
+    Left = 16
+    Top = 430
   end
   object ZConnection2: TZConnection
     ControlsCodePage = cGET_ACP
@@ -349,8 +350,8 @@ object Form6: TForm6
     LibraryLocation = 
       'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
       '\libmysql.dll'
-    Left = 344
-    Top = 32
+    Left = 336
+    Top = 230
   end
   object ZConnection3: TZConnection
     ControlsCodePage = cGET_ACP
@@ -365,7 +366,7 @@ object Form6: TForm6
     LibraryLocation = 
       'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
       '\libmysql.dll'
-    Left = 736
-    Top = 32
+    Left = 704
+    Top = 230
   end
 end

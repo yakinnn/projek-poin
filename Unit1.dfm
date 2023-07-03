@@ -251,12 +251,9 @@ object Form1: TForm1
     ItemHeight = 13
     TabOrder = 16
     Items.Strings = (
-      '1'
-      '2'
-      '3'
-      '4'
-      '5'
-      '6')
+      'X'
+      'XI'
+      'XII')
   end
   object ComboBox3: TComboBox
     Left = 408
