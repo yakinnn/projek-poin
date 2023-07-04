@@ -194,7 +194,7 @@ object Form6: TForm6
       'Tidak Aktif')
   end
   object Button1: TButton
-    Left = 296
+    Left = 328
     Top = 306
     Width = 75
     Height = 25
@@ -203,7 +203,7 @@ object Form6: TForm6
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 32
+    Left = 64
     Top = 306
     Width = 75
     Height = 25
@@ -212,7 +212,7 @@ object Form6: TForm6
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 120
+    Left = 152
     Top = 306
     Width = 75
     Height = 25
@@ -221,7 +221,7 @@ object Form6: TForm6
     OnClick = Button3Click
   end
   object Button4: TButton
-    Left = 208
+    Left = 240
     Top = 306
     Width = 75
     Height = 25
@@ -229,21 +229,13 @@ object Form6: TForm6
     TabOrder = 13
     OnClick = Button4Click
   end
-  object Button6: TButton
-    Left = 384
-    Top = 306
-    Width = 75
-    Height = 25
-    Caption = 'Laporan'
-    TabOrder = 14
-  end
   object DBGrid1: TDBGrid
     Left = 64
     Top = 346
     Width = 609
     Height = 120
     DataSource = DataSource1
-    TabOrder = 15
+    TabOrder = 14
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -257,7 +249,7 @@ object Form6: TForm6
     Width = 320
     Height = 120
     DataSource = DataSource2
-    TabOrder = 16
+    TabOrder = 15
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -271,7 +263,7 @@ object Form6: TForm6
     Width = 320
     Height = 120
     DataSource = DataSource3
-    TabOrder = 17
+    TabOrder = 16
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11

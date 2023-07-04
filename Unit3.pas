@@ -19,7 +19,6 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Button6: TButton;
     DBGrid1: TDBGrid;
     DataSource1: TDataSource;
     ZQuery1: TZQuery;

@@ -175,8 +175,8 @@ object Form1: TForm1
     TabOrder = 8
   end
   object Button1: TButton
-    Left = 360
-    Top = 280
+    Left = 424
+    Top = 256
     Width = 75
     Height = 25
     Caption = 'Baru'
@@ -184,8 +184,8 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 96
-    Top = 280
+    Left = 160
+    Top = 256
     Width = 75
     Height = 25
     Caption = 'Simpan'
@@ -193,8 +193,8 @@ object Form1: TForm1
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 184
-    Top = 280
+    Left = 248
+    Top = 256
     Width = 75
     Height = 25
     Caption = 'Edit'
@@ -202,29 +202,21 @@ object Form1: TForm1
     OnClick = Button3Click
   end
   object Button4: TButton
-    Left = 272
-    Top = 280
+    Left = 336
+    Top = 256
     Width = 75
     Height = 25
     Caption = 'Hapus'
     TabOrder = 12
     OnClick = Button4Click
   end
-  object Button6: TButton
-    Left = 448
-    Top = 280
-    Width = 75
-    Height = 25
-    Caption = 'Laporan'
-    TabOrder = 13
-  end
   object DBGrid1: TDBGrid
     Left = 16
-    Top = 328
+    Top = 304
     Width = 873
     Height = 153
     DataSource = DataSource1
-    TabOrder = 14
+    TabOrder = 13
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -238,7 +230,7 @@ object Form1: TForm1
     Width = 161
     Height = 21
     ItemHeight = 13
-    TabOrder = 15
+    TabOrder = 14
     Items.Strings = (
       'Laki-Laki'
       'Perempuan')
@@ -249,7 +241,7 @@ object Form1: TForm1
     Width = 161
     Height = 21
     ItemHeight = 13
-    TabOrder = 16
+    TabOrder = 15
     Items.Strings = (
       'X'
       'XI'
@@ -261,7 +253,7 @@ object Form1: TForm1
     Width = 161
     Height = 21
     ItemHeight = 13
-    TabOrder = 17
+    TabOrder = 16
     Items.Strings = (
       'BAHASA'
       'MIPA'
@@ -273,7 +265,7 @@ object Form1: TForm1
     Width = 161
     Height = 21
     ItemHeight = 13
-    TabOrder = 18
+    TabOrder = 17
     Items.Strings = (
       'Aktif'
       'Tidak Aktif')
@@ -285,7 +277,7 @@ object Form1: TForm1
     Height = 21
     Date = 45099.785147037040000000
     Time = 45099.785147037040000000
-    TabOrder = 19
+    TabOrder = 18
   end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP

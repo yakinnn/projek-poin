@@ -20,7 +20,6 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Button6: TButton;
     ZConnection1: TZConnection;
     ZConnection2: TZConnection;
     ZConnection3: TZConnection;

@@ -33,7 +33,6 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Button6: TButton;
     ZQuery1: TZQuery;
     ZQuery2: TZQuery;
     ZQuery3: TZQuery;

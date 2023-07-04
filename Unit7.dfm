@@ -93,7 +93,7 @@ object Form7: TForm7
       'Ibu')
   end
   object Button1: TButton
-    Left = 64
+    Left = 112
     Top = 218
     Width = 75
     Height = 25
@@ -128,21 +128,13 @@ object Form7: TForm7
     TabOrder = 6
     OnClick = Button4Click
   end
-  object Button6: TButton
-    Left = 160
-    Top = 218
-    Width = 75
-    Height = 25
-    Caption = 'Laporan'
-    TabOrder = 7
-  end
   object DBGrid1: TDBGrid
     Left = 80
     Top = 264
     Width = 320
     Height = 120
     DataSource = DataSource1
-    TabOrder = 8
+    TabOrder = 7
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -156,7 +148,7 @@ object Form7: TForm7
     Width = 320
     Height = 120
     DataSource = DataSource2
-    TabOrder = 9
+    TabOrder = 8
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -170,7 +162,7 @@ object Form7: TForm7
     Width = 320
     Height = 120
     DataSource = DataSource3
-    TabOrder = 10
+    TabOrder = 9
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -184,7 +176,7 @@ object Form7: TForm7
     Width = 145
     Height = 21
     ItemHeight = 13
-    TabOrder = 11
+    TabOrder = 10
     Items.Strings = (
       'Kandung'
       'Wali')
